@@ -1,0 +1,253 @@
+body{
+	background-image: url(chair.jpg);
+	height: 101vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-right: 600px;
+}
+
+body#about{
+	background-image: url(laptop.jpg);
+}
+
+body#work{
+	background-image: url(coffe2.jpg);
+	background-repeat: repeat;
+}
+
+body#projects{
+	background-image: url(project1.jpg);
+}
+
+body#home{
+	background-image: url(laptopbook.jpg);
+}
+
+@font-face{
+	font-family: font1;
+	src:url(font1.otf);
+}
+
+@font-face{
+	font-family: font2;
+	src:url(font2.ttf);
+}
+
+@font-face{
+	font-family: font3;
+	src:url(font3.otf);
+}
+
+@font-face{
+	font-family: font4;
+	src:url(font4.ttf);
+}
+
+#untukhome{
+	font-size: 26px;
+	font-family: font2;
+	padding-right: 60px;
+	float: right;
+	margin-top: -93px;
+}
+
+#teks{
+	background-color: #fff;
+	font-family: font3;
+	font-size: 20px;
+	margin-top: 100px;
+	margin-left: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+	opacity: 100;
+	background: rgb(255,255,255,0.9);
+	opacity: 0.8;
+	border-radius: 2%;
+}
+
+.copyright{
+	font-family: font4;
+	color: #fff;
+	margin-top: 825px;
+	margin-left: 850px;
+}
+
+#software{
+	background-color: #fff;
+	font-family: font3;
+	float: right;
+	font-size: 20px;
+	margin-right: -400px;
+	margin-top: -357px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	opacity: 100;
+	background: rgb(255,255,255,0.9);
+	opacity: 0.8;
+	border-radius: 2%;
+}
+
+#software:hover{
+	opacity: 1;
+	transition: .2s ease;
+}
+
+#teks:hover{
+	opacity: 1;
+	transition: .2s ease;
+}
+
+.misi{
+	height: 100px;
+	width: 1000px;
+}
+
+#untukpage{
+    font-family: font1;
+	padding: 16px;
+	text-align: center;
+	color: #fff;
+	font-size: 80px;
+}
+
+#putih{
+	font-family: font3;
+	background-color: #fff;
+	font-size: 18px;
+	margin-left: 770px;
+	margin-top: -4px;
+	padding-left: 13px;
+	padding-right: 9px;
+}
+
+.borderbanner{
+	border: 3px solid #fff;
+}
+
+.brand1:hover {
+  background-color: none;
+  border: 1px #fff;
+  color: #fff;
+  padding: 10px;
+  display: inline;
+  font-size: 21px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.brand:hover{
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+.contabu {
+  border-radius: 50%;
+  border: 4px solid #545454;
+  position: relative;
+  width: 27.8%;
+  margin-top: 100px;
+  margin-left: 270px;
+  transition: .5s ease;
+}
+
+.image {
+  border-radius: 50%;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 50%;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.contabu:hover .overlay {
+  opacity: 0.55;
+}
+
+.contabu:hover {
+  transform: scale(1.2);
+  transition: .5s ease;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family: font3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.contedi {
+  border-radius: 50%;
+  border: 4px solid #545454;
+  position: relative;
+  width: 27.8%;
+  margin-left: 750px;
+  margin-top: -360px;
+  transition: .5s ease;
+}
+
+.contedi:hover .overlay {
+  opacity: 0.55;
+}
+
+.contedi:hover {
+  transform: scale(1.2);
+  transition: .5s ease;
+}
+
+.conthoriq {
+  border-radius: 50%;
+  border: 4px solid #545454;
+  position: relative;
+  width: 27.9%;
+  margin-left: 1228px;
+  margin-top: -360px;
+  transition: .5s ease;
+}
+
+.conthoriq:hover .overlay {
+  opacity: 0.55;
+}
+
+.conthoriq:hover {
+  transform: scale(1.2);
+  transition: .5s ease;
+}
+
+.creator{ 
+  font-family: font1;
+  font-size: 70px;
+  color: #fff;
+  margin-left: 600px;
+  margin-top: 50px;
+  text-align: center;
+  transition: .45s ease;
+}
+
+.creator:hover {
+	font-size: 80px;
+	transition: .45s ease;
+}
+
+
+
+
+
+
